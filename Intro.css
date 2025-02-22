@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+}
+#para1{
+    color: crimson;
+    font-size:xx-large;
+    font-family:fantasy;
+    font-style: oblique;
+    font-weight: bolder;
+}
+#para2{
+    color: rgb(150, 51, 71);
+    font-size:xx-large;
+    font-family:fantasy;
+    font-style: oblique;
+    font-weight: bolder;   
+}
