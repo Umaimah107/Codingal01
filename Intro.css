@@ -6,12 +6,25 @@ body{
     font-size:xx-large;
     font-family:fantasy;
     font-style: oblique;
-    font-weight: bolder;
+    font-weight: 85;
+    text-decoration: overline;
+    text-transform: capitalize;
 }
-#para2{
+.para2{
     color: rgb(150, 51, 71);
     font-size:xx-large;
     font-family:fantasy;
     font-style: oblique;
-    font-weight: bolder;   
+    font-weight: 60;   
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+.para3{
+    color: rgb(229, 121, 143);
+    font-size:xx-large;
+    font-family:fantasy;
+    font-style: oblique;
+    font-weight: 60;   
+    text-decoration: underline;
+    text-transform: uppercase;
 }
