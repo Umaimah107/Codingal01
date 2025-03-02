@@ -1,0 +1,45 @@
+body{
+    background-color: cadetblue;
+}
+#div1 {
+
+    background-color: rgb(229, 90, 132);
+    border: 10px solid rgb(255, 156, 156);
+    padding: 80px;
+    margin: 30px;
+    text-align: center; 
+    font-family: monospace;
+    font-size: large
+}
+
+#div2{
+    background-color: rgb(90, 229, 127);
+    border: 10px solid rgb(199, 255, 216);
+    padding: 80px;
+    margin: 30px;
+    text-align: center; 
+    font-family: monospace;
+    font-size: 160% ;
+
+}
+#div3{
+    background-color: rgb(90, 176, 229);
+    border: 10px solid rgb(158, 237, 255);
+    padding: 80px;
+    margin: 30px;
+    text-align: center; 
+    font-family: monospace;
+    font-size: 160% ;
+
+}
+#div4{
+    background-color: rgb(212, 89, 252);
+    border: 10px solid rgb(241, 191, 255);
+    padding: 80px;
+    margin: 30px;
+    text-align: center; 
+    font-family: monospace;
+    font-size: 160% ;
+
+}
+    
