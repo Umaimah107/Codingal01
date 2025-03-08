@@ -1,0 +1,17 @@
+#container{
+    background: #ff6565;
+    display: flex;
+    height: 60%;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.div1{
+    background-color: aliceblue;
+    height: 60%;
+    margin: 3%;
+    width: 30%;
+    text-align: center;
+    font-size: medium;
+   
+}
