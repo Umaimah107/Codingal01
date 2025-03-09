@@ -1,0 +1,13 @@
+.container{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 40px;
+    justify-content: space-between;
+}
+.div1{
+    background-color: rgb(97, 204, 210);
+    text-align: center;
+    border: 5px solid rgb(68, 121, 122)
+}
