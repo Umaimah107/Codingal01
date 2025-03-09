@@ -9,8 +9,16 @@ body{
     flex-direction: row;
     justify-content: flex-start;   
 }
+.container2{
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 40px;
+    justify-content: space-between;
+}
 
-#div1 {
+#div2 {
 
     background-color: rgb(229, 90, 132);
     border: 10px solid rgb(255, 156, 156);
@@ -21,7 +29,7 @@ body{
     font-size: large
 }
 
-#div2{
+#div1{
     background-color: rgb(90, 229, 127);
     border: 10px solid rgb(199, 255, 216);
     padding: 80px;
@@ -35,17 +43,8 @@ body{
     position: sticky;
 
 }
-#div3{
-    background-color: rgb(90, 176, 229);
-    border: 10px solid rgb(158, 237, 255);
-    padding: 80px;
-    margin: 30px;
-    text-align: center; 
-    font-family: monospace;
-    position: fixed;
 
-}
-#div4{
+#div3{
     background-color: rgb(212, 89, 252);
     border: 10px solid rgb(241, 191, 255);
     padding: 80px;
