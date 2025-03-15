@@ -2,19 +2,32 @@
     <head>
         <title>INTRO TO BOOTSTRAP</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    
+        <style>
+        #div1{
+            background-color: aquamarine;
+            border: 10px solid black;
+        }
+        #div2{
+            background-color: aqua;
+            border: 10px solid black;
+        }
+        #div3{
+            background-color: rgb(5, 207, 207);
+            border: 10px solid black;
+        }
+        </style>
     </head>
 
     <body>
         <div class="container" >
             <div class="row">
-                <div class="col">
+                <div id="div1" class="col-sm">
                     1
                 </div>
-                <div class="col">
+                <div id="div2" class="col-md">
                     2
                 </div>
-                <div class="col">
+                <div id="div3" class="col-lg">
                     3
                 </div>
             </div>
