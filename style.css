@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/background_gif.gif); /* image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec_one {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(234, 80, 129);
+    color: rgb(254, 228, 228);
+    text-shadow: 2px 3px black;
+    text-align: center;
+    font-size: 23px;
+    box-shadow: 0px 3px 0px rgba(255, 255, 255, 0.832);
+}
+.welcome_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #ffffff62;
+    padding: 0;
+    margin: 2rem 0;
+}
+.hello_box {
+    background-color: #ffffffb5;
+    padding: 50px;
+    margin-left: -10%;
+    border-radius: 20px 20px 20px 0;
+    border: 1px solid rgb(156, 11, 11);
+    font-size: 18px;
+    color: #1c1a02;
+}
+.hello_box:hover {
+    border: 2px solid rgb(156, 11, 11);
+    cursor: pointer;
+    box-shadow: 0 2px 0 black;   
+}
+.carousel {
+    padding: 5em;
+}
