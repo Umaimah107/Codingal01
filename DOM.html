@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>HTML DOM</title>
+        <style>
+            #first_div{
+                color: aquamarine;
+                font-family: Cochin,;
+                font-size: 50px ;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            let div1=document.createElement("div");
+            div1.id= "first_div"
+            div1.innerHTML= "<p>HELLO</p>"
+
+            document.body.append(div1)
+
+            let h1=document.createElement("h1")
+            h1.id= "heading1"
+            h1.innerHTML= "<h1> HELLO!</h1>"
+
+            document.body.append(h1)
+        </script>
+    </body>
+</html>
