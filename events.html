@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>EVENTS IN JAVASCRIPT</title>
+        <style>
+            h1{
+                font-family:fantasy;
+                color: rgb(231, 121, 121);
+            }
+            button{
+                color: aqua;
+            }
+            .dark{
+                background-color: black;
+                color:beige;
+            }
+        </style>
+    </head>
+    <body class="light">
+        <h1>THE BASEMENT</h1>
+        <h3>I wanted to find my friend, and he was hiding in the basement</h3>
+        <button onclick="btn()">Get in the mood</button>
+        <h3>WRITE YOUR NAME HERE, IF YOU DARE:<input></h3>
+        <button onclick="popup()">Please,please do not click me</button><br>
+        <button>Tell me what happened</button>
+
+        <script>
+            function btn(){
+                document.body.className="dark";
+            }
+            function popup(){
+                alert("i told you not to click!")
+            }
+        </script>
+    </body>
+</html>
