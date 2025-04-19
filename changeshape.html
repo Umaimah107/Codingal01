@@ -15,7 +15,8 @@
         <button onclick="chng()">MAKE INTO CIRCLE</button><br>
         <button onclick="hide()">HIDE</button><br>
         <button onclick="show()">SHOW</button><br>
-        <button>REFORM</button>
+        <button onclick="reform()">REFORM</button>
+        <button onclick="surprise()">SURPRISE!</button>
 
         <script>
             
@@ -29,13 +30,17 @@
             function show(){
                 change.style.display="block" }
             function reform(){
-                change.style.borderRadius="0%"
+                change.style.borderRadius="0"
             }
             change.onmouseenter=function(){
                 change.style.backgroundColor="red"
             }
             change.onmouseout=function(){
                 change.style.backgroundColor="white"
+            }
+            function surprise(){
+                change.style.backgroundColor="blue"
+                change.style.borderRadius="50%"
             }
         </script>
     </body>
