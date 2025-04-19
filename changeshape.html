@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>CHANGE SHAPE</title>
+        <style>
+            #div1{
+                border:3px solid black;
+                height: 30%;
+                width: 20%
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CHANGE THE SQUARE!</h1>
+        <div id="div1"></div>
+        <button onclick="chng()">MAKE INTO CIRCLE</button><br>
+        <button onclick="hide()">HIDE</button><br>
+        <button onclick="show()">SHOW</button><br>
+        <button>REFORM</button>
+
+        <script>
+            
+           let change = document.getElementById("div1")
+            function chng(){
+                  change.style.borderRadius="70%"
+            }
+            function hide(){
+                change.style.display="none"
+            }
+            function show(){
+                change.style.display="block" }
+            function reform(){
+                change.style.borderRadius="0%"
+            }
+            change.onmouseenter=function(){
+                change.style.backgroundColor="red"
+            }
+            change.onmouseout=function(){
+                change.style.backgroundColor="white"
+            }
+        </script>
+    </body>
+</html>
