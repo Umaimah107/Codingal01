@@ -64,5 +64,30 @@
         <li>5. Savory Delights</li>
     </ul>
     <img src="restaraunt.jpeg" alt="Restaurant Image" width="500">
+    <section>
+        <img class="my slides" src="Fish.jpeg"  width="300px">
+        <img class="my slides" src="food.jpeg">
+        <img class="my slides" src="pasta.jpeg" >
+        <img class="my slides" src="hotdog.jpeg">
+    </section>
+    <script>
+        var myIndex = 0
+        carousel();
+        function carousel(){
+            var i;
+            var x = document.getElementsByClassName("my slides")
+            
+            for (i=0 ; i < x.length ; i++ ) {
+                x[i].style.display="none";
+            }
+            myIndex++;
+
+            if(myIndex > x.length ){
+                myIndex = 1;
+            }
+            x[myIndex-1].style.display="block";
+            setTimeout(carousel,3000)
+        }
+    </script>
 </body>
 </html>
